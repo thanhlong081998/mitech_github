@@ -37,6 +37,7 @@ Version : 1.0.0
 }
 
  :root {
+    --textababab: #ababab;
     --bgwhite8: #f8f8f8;
     --textopan: #696969;
     --textblu: #007aff;
@@ -44,7 +45,7 @@ Version : 1.0.0
 }
 
 html {
-    font-size: 67.5%;
+    font-size: 62.5%;
 }
 
 body {
@@ -67,7 +68,7 @@ a {
 .dicorector_underline::after {
     content: "";
     position: absolute;
-    bottom: -5%;
+    bottom: 0%;
     left: auto;
     right: 0;
     opacity: 0;
@@ -130,7 +131,7 @@ a {
 /*header Bottom*/
 
 .bgheader__bottom {
-    font-size: 1.6em;
+    font-size: 1.6rem;
     position: sticky;
     top: 0;
     background-color: #fff;
@@ -162,7 +163,7 @@ a {
 }
 
 .header__bottom .header__bottom-menu .menu__item {
-    padding-left: 40px;
+    padding-left: 60px;
     font-weight: 600;
     display: flex;
     height: 100%;
@@ -267,7 +268,7 @@ a {
     width: 250px;
     top: 100%;
     left: 20%;
-    line-height: 3em;
+    line-height: 4rem;
     background-color: #fff;
     padding-bottom: 15px;
     z-index: 2;
@@ -276,7 +277,7 @@ a {
 }
 
 .header__bottom .header__bottom-menu .menu__item .menu__item-list .list__item {
-    padding: 0 20px;
+    padding: 0 30px;
     width: 100%;
     position: relative;
 }
@@ -293,7 +294,8 @@ a {
 }
 
 .header__bottom .header__bottom-menu .menu__item .menu__item-list .list__item .list__item-link {
-    color: var(--textopan);
+    font-size: 1.5rem;
+    color: var(--textababab);
     transition: linear 0.4s;
     position: relative;
 }
@@ -306,12 +308,12 @@ a {
     right: 6%;
     top: 34%;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-weight: 600;
     text-align: center;
     line-height: 20px;
     border-radius: 3px;
-    background-color: rgb(230, 39, 39);
+    background-color: #FF5843;
 }
 
 .header__bottom .header__bottom-menu .menu__item .menu__item-list .list__item .list__item-link i {
@@ -345,7 +347,7 @@ a {
 */
 
 .bg_banner {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     width: 100%;
     background-image: url(../image/banner/slider-processing-slide-01-bg.jpg);
     background-size: 100% 100%;
@@ -386,16 +388,16 @@ a {
 }
 
 .banner .banner__infor-text p:nth-child(1) {
-    font-size: 1.5em;
+    font-size: 1.8rem;
 }
 
 .banner .banner__infor-text p:nth-child(2) {
-    font-size: 4em;
+    font-size: 7.2rem;
     letter-spacing: 0em;
 }
 
 .banner .banner__infor-text p:nth-child(3) {
-    font-size: 4em;
+    font-size: 7.2rem;
     color: var(--colorbrown);
 }
 
@@ -406,14 +408,15 @@ a {
 
 .banner .banner__infor-but .but {
     display: block;
+    font-size: 1.4rem;
 }
 
 .banner .banner__infor-but .but__Sample {
-    padding: 20px;
+    padding: 30px 50px;
     background-color: var(--colorbrown);
     color: #fff;
     font-weight: 400;
-    border-radius: 4px;
+    border-radius: 6px;
     transition: linear 0.4s;
 }
 
@@ -472,11 +475,11 @@ a {
 .bg_service .service h3 {
     padding-top: 80px;
     color: var(--textopan);
-    font-size: 1.3em;
+    font-size: 1.4rem;
 }
 
 .bg_service .service h1 {
-    font-size: 3em;
+    font-size: 4rem;
 }
 
 .bg_service .service h1 span {
@@ -519,15 +522,16 @@ a {
 }
 
 .service .service__list .service__list-item .item__link .item__link-infor {
+    font-size: 1.8rem;
     padding-left: 20px;
     flex: 1;
     text-align: start;
-    line-height: 2em;
+    line-height: 3rem;
 }
 
 .service .service__challenge {
     padding-top: 20px;
-    font-size: 1.3em;
+    font-size: 1.8rem;
 }
 
 .service .service__challenge .service__challenge-link {
@@ -574,8 +578,9 @@ a {
 }
 
 .experience .experience__year .experience__year-exp .exp__number {
-    line-height: 110px;
-    font-size: 16em;
+    line-height: 144px;
+    height: 144px;
+    font-size: 18rem;
     font-weight: 700;
     color: var(--colorbrown);
 }
@@ -585,8 +590,8 @@ a {
     display: flex;
     padding-left: 10px;
     text-align: start;
-    line-height: 1.3em;
-    font-size: 1em;
+    line-height: 2.6rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: var(--textopan);
     align-items: flex-end;
@@ -594,8 +599,8 @@ a {
 
 .experience .experience__year p {
     color: #000;
-    font-size: 3em;
-    font-weight: 600;
+    font-size: 4rem;
+    font-weight: 700;
 }
 
 .experience .experience__year p:nth-child(3) {
@@ -619,14 +624,15 @@ a {
 }
 
 .experience .experience__number .experience__number-list .list__item .list__item-num {
-    font-size: 4em;
+    font-size: 5.6rem;
+    padding-top: 40px;
     font-weight: 600;
     color: var(--textblu);
     padding-bottom: 20px;
 }
 
 .experience .experience__number .experience__number-list .list__item .list__item-content {
-    font-size: 1.1em;
+    font-size: 1.4rem;
     font-weight: 600;
     color: var(--textopan);
 }
@@ -648,12 +654,13 @@ a {
 
 .security .security__head {
     color: rgb(18, 8, 160);
-    font-size: 3em;
+    font-size: 6.4rem;
+    padding-bottom: 30px;
 }
 
 .security .security__challenge {
     color: #000;
-    font-size: 1.3em;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 
@@ -679,7 +686,6 @@ a {
 */
 
 .bg_technology {
-    font-size: 1.6em;
     background-color: #fff;
 }
 
@@ -689,13 +695,14 @@ a {
 }
 
 .technology p {
+    font-size: 1.4rem;
     font-weight: 600;
     color: var(--textopan);
     padding-bottom: 30px;
 }
 
 .technology h3 {
-    font-size: 1.4em;
+    font-size: 4rem;
     font-weight: 600;
     color: #000;
 }
@@ -778,13 +785,14 @@ a {
 }
 
 .technology .technology__infor .technology__infor-item .item__back .item__back-infor .infor__content {
-    font-size: 1.3em;
+    font-size: 2.4rem;
     padding-top: 30px;
     padding-bottom: 20px;
 }
 
 .technology .technology__infor .technology__infor-item .item__back .item__back-infor .infor__text {
-    font-size: 1em;
+    font-size: 1.4rem;
+    padding: 0 20px;
 }
 
 .technology .technology__infor .technology__infor-item .item__back .item__back-infor .infor__btn {
@@ -807,7 +815,7 @@ a {
 }
 
 .technology .technology__btn {
-    padding: 20px 0 20px;
+    padding: 20px 0 40px;
     display: flex;
     justify-content: center;
 }
@@ -815,9 +823,11 @@ a {
 .technology .technology__btn .technology__btn-item {
     margin: 0 15px;
     display: block;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 600;
-    padding: 16px 20px;
+    height: 56px;
+    width: 162px;
+    line-height: 56px;
     border-radius: 3px;
     border: 1px var(--textblu) solid;
     transition: linear 0.3s;
@@ -831,6 +841,7 @@ a {
 .technology .technology__btn .technology__btn-right {
     background-color: #fff;
     color: var(--textblu);
+    border: 1px rgba(51, 51, 51, 0.257) solid;
     transition: linear 0.3s;
 }
 
@@ -840,7 +851,7 @@ a {
 }
 
 .technology .technology__btn .technology__btn-item:hover {
-    transform: translateY(-3px);
+    transform: translateY(-4px);
 }
 
 
@@ -855,18 +866,19 @@ a {
 .testimonials {
     padding: 40px 0;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .testimonials>p {
+    letter-spacing: 0.5rem;
     padding: 30px 0;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: var(--textopan);
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .testimonials h3 {
-    font-size: 2.4rem;
+    font-size: 4rem;
     color: #000;
     font-weight: 600;
     padding-bottom: 30px;
@@ -937,32 +949,31 @@ a {
 }
 
 .owl-theme .owl-dots .owl-dot {
-    opacity: 0.5;
     transition: all linear 0.2s;
     outline: none;
     margin: 0 10px;
+    line-height: 12px;
+    height: 12px;
+    width: 12px;
+    text-align: center;
+    line-height: 12px;
 }
 
-.owl-theme .owl-dots .owl-dot:hover {
-    opacity: 1;
-    transform: scale(1.6);
-}
+.owl-theme .owl-dots .owl-dot:hover {}
 
-.owl-theme .owl-dots .owl-dot.active {
-    transform: scale(1.6);
-    opacity: 1;
-}
+.owl-theme .owl-dots .owl-dot.active {}
 
-.owl-theme .owl-dots .owl-dot.active span {
-    background: var(--textblu) !important;
-}
-
+.owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: var(--textblu) !important;
+    transform: scale(1.5);
+    background: rgb(4, 4, 238) !important;
 }
 
 .owl-theme .owl-dots .owl-dot span {
-    background: var(--textblu) !important;
+    width: 8px !important;
+    height: 8px !important;
+    background: rgba(4, 4, 238, 0.381) !important;
+    transition: all linear 0.4s;
 }
 
 .bg-testimonialslogo {
@@ -977,7 +988,7 @@ a {
 }
 
 .logo .logo__item {
-    width: 170px;
+    width: unset;
     height: 84px;
     display: flex;
     justify-content: center;
@@ -1063,12 +1074,12 @@ a {
 
 .contact .contact__infor {
     font-weight: 600;
-    padding: 0 40px 40px;
+    padding: 0 0 40px 40px;
     line-height: 3rem;
 }
 
 .contact .contact__infor h3 {
-    font-size: 3rem;
+    font-size: 4rem;
     padding-right: 0px;
     line-height: 1.5em;
     position: relative;
@@ -1086,7 +1097,7 @@ a {
 }
 
 .contact .contact__infor p {
-    font-size: 1.3em;
+    font-size: 1.8rem;
     color: var(--bgwhite8);
 }
 
@@ -1100,13 +1111,13 @@ a {
 }
 
 .contact .contact__phone h5 {
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: var(--bgwhite8);
     text-align: center;
 }
 
 .contact .contact__phone .contact__phone-number {
-    font-size: 5em;
+    font-size: 4.8rem;
     color: var(--colorbrown);
     font-weight: 600;
     margin-bottom: 30px;
@@ -1124,11 +1135,14 @@ a {
 .contact .contact__phone .contact__phone-btn {
     display: inline-block;
     margin-top: 40px;
-    padding: 16px 60px;
+    width: 230px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
     background-color: #fff;
     border-radius: 4px;
     color: var(--textblu);
-    font-size: 1.3em;
+    font-size: 1.4rem;
     font-weight: 600;
     transition: linear 0.3s;
 }
@@ -1160,6 +1174,7 @@ a {
 }
 
 .footer {
+    line-height: 3.74rem;
     width: 100%;
     padding: 60px 0;
     display: flex;
@@ -1178,9 +1193,8 @@ a {
 }
 
 .footer .footer__add .footer__add-contact {
-    font-size: 1.3em;
+    font-size: 1.5rem;
     padding-top: 30px;
-    line-height: 2em;
     color: var(--textopan)
 }
 
@@ -1242,21 +1256,20 @@ a {
 }
 
 .footer .footer__list .footer__list-item {
-    font-size: 2em;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 
 .footer .footer__list .footer__list-item .item__list {
     padding: 20px 0;
-    line-height: 2em;
 }
 
 .footer .footer__list .footer__list-item .item__list .item__list-select {
-    font-size: .6em;
+    font-size: 1.3rem;
 }
 
 .footer .footer__list .footer__list-item .item__list .item__list-select:first-child {
-    padding-top: 20px;
+    padding-top: 35px;
 }
 
 .footer .footer__list .footer__list-item .item__list .item__list-select .select__link {
@@ -1284,7 +1297,7 @@ a {
 }
 
 .footer .footer__app .footer__app-down {
-    box-shadow: 0 0 40px 5px rgba(51, 51, 51, 0.1);
+    box-shadow: 0 0 20px rgba(51, 51, 51, 0.1);
     display: block;
     width: 150px;
     height: 44px;
@@ -1307,12 +1320,13 @@ a {
 }
 
 .footer__mxh {
+    font-size: 1.5rem;
     margin-top: 30px;
     line-height: 6rem;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
 }
 
 .footer__mxh p i {
@@ -1325,26 +1339,26 @@ a {
 }
 
 .footer__mxh .footer__mxh-list .list__item {
-    margin-left: 20px;
+    margin-left: 15px;
     position: relative;
 }
 
 .footer__mxh .footer__mxh-list .list__item:first-child {
-    margin-left: 0;
+    margin-left: 0px;
 }
 
 .footer__mxh .footer__mxh-list .list__item .list__item-link {
     position: relative;
     color: #000;
     display: inline-block;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     height: 40px;
     width: 40px;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
     color: rgba(0, 0, 0, 0.62);
-    border: 1px solid rgba(0, 0, 0, 0.32);
+    border: 1px solid rgba(0, 0, 0, 0.12);
     transition: linear 0.3s;
 }
 
@@ -1362,6 +1376,8 @@ a {
 
 .footer__mxh .footer__mxh-list .list__item .list__item-content {
     visibility: hidden;
+    color: #fff;
+    font-weight: 400;
     transform: translateY(25px);
     opacity: 0;
     position: absolute;
@@ -1371,6 +1387,7 @@ a {
     width: 80px;
     line-height: 40px;
     text-align: center;
+    font-weight: 600;
     right: auto;
     background-color: var(--textblu);
     border-radius: 4px;
@@ -1450,6 +1467,9 @@ a {
     .bg_service .service {
         line-height: 4em;
     }
+    .service .service__challenge .service__challenge-link {
+        display: inline-block;
+    }
     .experience {
         padding: 80px 0 40px;
     }
@@ -1465,18 +1485,30 @@ a {
     .experience .experience__number .experience__number-list .list__item {
         flex-basis: 100%;
     }
+    .security .security__head {
+        font-size: 3rem;
+        padding-bottom: 10px;
+    }
+    .security .security__challenge .security__challenge-link {
+        display: inline-block;
+    }
+    .technology h3 {
+        font-size: 2.8rem;
+    }
     .technology .technology__infor .technology__infor-item .item__back .item__back-infor .infor__text {
         padding: 0 30px;
-    }
-    .technology .technology__btn .technology__btn-item {
-        padding: 12px 16px;
-        font-size: 14px;
     }
     .testimonials .testimonials__list .testimonials__list-item .item__member .item__member-position {
         line-height: 2rem;
     }
-    .testimonials .testimonials__list .testimonials__list-item .item__content {
-        height: 160px;
+    .testimonials .testimonials__list .testimonials__list-item {
+        min-height: 300px;
+    }
+    .testimonials .testimonials__list .testimonials__list-item .item__member .item__member-position {
+        padding-left: 5px;
+    }
+    .testimonials h3 {
+        font-size: 2.7rem;
     }
     .contact .contact__infor h3 {
         font-size: 2rem;
@@ -1502,6 +1534,16 @@ a {
         flex-wrap: wrap;
         align-items: flex-start;
         flex-direction: column-reverse;
+    }
+    .footer .footer__app {
+        justify-content: flex-start;
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .footer .footer__app .footer__app-down {
+        margin: 0 15px;
     }
 }
 
@@ -1543,17 +1585,30 @@ a {
     .banner .banner__infor-text p:nth-child(3) {
         font-size: 3em;
     }
+    .service .service__challenge .service__challenge-link {
+        display: inline-block;
+    }
+    .security .security__head {
+        font-size: 4rem;
+        padding-bottom: 20px;
+    }
+    .security .security__challenge .security__challenge-link {
+        display: inline-block;
+    }
+    .technology h3 {
+        font-size: 3rem;
+    }
     .technology .technology__infor .technology__infor-item .item__back .item__back-infor .infor__text {
         padding: 0 30px;
-    }
-    .technology .technology__btn .technology__btn-item {
-        font-size: 14px;
     }
     .testimonials .testimonials__list .testimonials__list-item .item__member .item__member-position {
         line-height: 2rem;
     }
-    .testimonials .testimonials__list .testimonials__list-item .item__content {
-        height: 160px;
+    .testimonials .testimonials__list .testimonials__list-item {
+        min-height: 300px;
+    }
+    .testimonials h3 {
+        font-size: 3rem;
     }
     .contact .contact__infor h3 {
         font-size: 3rem;
@@ -1569,6 +1624,23 @@ a {
     .bg_footer {
         position: relative;
     }
+    .footer .footer__app {
+        justify-content: flex-start;
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .footer .footer__app .footer__app-down {
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer__mxh .footer__mxh-list {
+        display: flex;
+        justify-content: flex-start;
+    }
 }
 
 @media (min-width: 993px) and (max-width: 1199px) {
@@ -1577,7 +1649,7 @@ a {
     }
     .banner .banner__img {
         position: absolute;
-        height: 80%;
+        height: 90%;
         width: 800px;
         right: -5%;
         bottom: 0;
@@ -1586,5 +1658,29 @@ a {
         background-position: bottom right;
         background-repeat: no-repeat;
         z-index: 1;
+    }
+    .testimonials .testimonials__list .testimonials__list-item {
+        min-height: 300px;
+    }
+    .footer__bgwhite {
+        display: none;
+    }
+    .footer .footer__app {
+        padding: 20px 0;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .bg_footer {
+        position: relative;
+    }
+    .footer .footer__app {
+        justify-content: flex-start;
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .footer .footer__app .footer__app-down {
+        margin: 0 15px;
     }
 }
